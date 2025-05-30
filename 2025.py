@@ -151,7 +151,7 @@ if not st.session_state.logged_in:
         cols = st.columns([1,2,1])
         with cols[1]:
             if st.button("Daxil ol", use_container_width=True):
-                if access_code == "admin":
+                if access_code == "HP2025":
                     st.session_state.logged_in = True
                     st.rerun()
                 else:
@@ -184,6 +184,7 @@ DEPARTMENTS = [
     "Rejim və məxfi kargüzarlıq şöbəsi",
     "Elmi - Tədqiqat və Statistik İnnovasiyalar Mərkəzi",
     "Yerli statistika orqanları"
+    "Rəhbərlik"
 ]
 
 CITIES = [
@@ -1592,7 +1593,7 @@ with tab2:
                 admin_pass = st.text_input("Şifrə", type="password", key="admin_pass")
             
             if st.button("Giriş et", key="admin_login_btn"):
-                if admin_user == "admin" and admin_pass == "admin123":
+                if admin_user == "intel@" and admin_pass == "AZ1994AZ":
                     st.session_state.admin_logged = True
                     st.rerun()
                 else:
