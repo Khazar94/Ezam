@@ -1,0 +1,9 @@
+streamlit
+pandas
+xlsxwriter
+python-telegram-bot
+plotly
+openpyxl 
+requests 
+beautifulsoup4
+lxml
